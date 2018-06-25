@@ -47,7 +47,7 @@ jPower = -3;
 
 //fighting
 //hit and hurtboxes
-hurtbox = hurtbox_create(-4, -4, 10, 10); //create and store hurtbox
+hurtbox = hurtbox_create(-9, -9, 20, 20); //create and store hurtbox
 hitbox  = -1; //default hitbox variable
 
 hpMax = 1000;

@@ -3,8 +3,8 @@ xPos = x;
 yPos = y;
 
 //make sure x and y scale is always trying to reset to 1
-xScale = approach(xScale,1,0.05);
-yScale = approach(yScale,1,0.05);
+xScale = approach(xScale,2,0.10);
+yScale = approach(yScale,2,0.10);
 
 //store current sprite information
 currentSprite = sprite;

@@ -8,20 +8,18 @@ if(player == 0){
     upHold    = up;
     downHold  = down;
     
-    left  = keyboard_check(vk_left);
-    right = keyboard_check(vk_right);
-    up    = keyboard_check(vk_up);
-    down  = keyboard_check(vk_down);
+    left  = keyboard_check(ord("Q"));
+    right = keyboard_check(ord("D"));
+    up    = keyboard_check(ord("Z"));
+    down  = keyboard_check(ord("S"));
     
     jumpHold = jump;
-    jump = keyboard_check(ord("Z"));
+    jump = keyboard_check(vk_space);
     
     attackHold = attack;
     attack = mouse_check_button(mb_left);
-    
-    dashHold = dash;
-    dash = keyboard_check(ord("C"));
-    
-    itemHold = item;
-    item = keyboard_check(ord("W"));
+	if (attack)
+	{
+		show_debug_message("test");
+	}
 }

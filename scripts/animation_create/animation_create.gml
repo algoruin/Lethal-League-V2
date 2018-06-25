@@ -12,8 +12,8 @@ angle         = 0; //angle of sprite
 xPos = x; //x position of sprite
 yPos = y; //y position of sprite
 
-xScale = 1; //x scale of sprite
-yScale = 1; //y scale of sprite
+xScale = 2; //x scale of sprite
+yScale = 2; //y scale of sprite
 
 currentSprite = sprite;
 lastSprite = currentSprite;
